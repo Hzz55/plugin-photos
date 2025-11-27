@@ -24,3 +24,4 @@ public class PhotoVo implements ExtensionVoOperator {
             .build();
     }
 }
+private Boolean isPublic; // 默认true
