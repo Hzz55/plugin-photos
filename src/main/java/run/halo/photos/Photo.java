@@ -17,6 +17,9 @@ import run.halo.app.extension.GVK;
 @EqualsAndHashCode(callSuper = true)
 @GVK(group = "core.halo.run", version = "v1alpha1", kind = "Photo", plural = "photos",
     singular = "photo")
+
+@Column(name = "is_public")
+private Boolean isPublic = true;
 public class Photo extends AbstractExtension {
 
     private PhotoSpec spec;
